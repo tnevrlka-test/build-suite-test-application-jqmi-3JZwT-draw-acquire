@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-simple-build-qaxr
     spec:
       containers:
-      - image: quay.io/tnevrlka-test/build-e2e-kfst-tenant/build-suite-test-application-jqmi/test-simple-build-qaxr@sha256:9ae3a378c0ce78a61ddd37694cf9d7238fc4756eb890b75fea1ba7aee216762d
+      - image: quay.io/tnevrlka-test/build-e2e-kfst-tenant/build-suite-test-application-jqmi/test-simple-build-qaxr@sha256:25b64a8c3016f98ea7403569e909932693b1287f8261758b3029bc700921e552
         name: my-nginx
         ports:
         - containerPort: 8080
