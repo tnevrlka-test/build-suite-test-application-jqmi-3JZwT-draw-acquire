@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-simple-build-qaxr
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-kfst-tenant/build-suite-test-application-jqmi/test-simple-build-qaxr@sha256:25b64a8c3016f98ea7403569e909932693b1287f8261758b3029bc700921e552
+        name: my-nginx
+        resources: {}
+status: {}
